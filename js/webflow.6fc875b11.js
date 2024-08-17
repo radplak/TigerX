@@ -1507,12 +1507,12 @@
           $(brandElement).attr("style", fullScreen ? "display: none !important;" : "");
         }
         function createBadge() {
-          var $brand = $('<a class="w-webflow-badge"></a>').attr("href", "https://webflow.com?utm_campaign=brandjs");
+          var $brand = $('<a class="w-webflow-badge"></a>').attr("href", "");
           var $logoArt = $("<img>").attr("src", "").attr("alt", "").css({
             marginRight: "4px",
             width: "26px"
           });
-          var $logoText = $("<img>").attr("src", "").attr("alt", "Made in Webflow");
+          var $logoText = $("<img>").attr("src", "").attr("alt", "");
           $brand.append($logoArt, $logoText);
           return $brand[0];
         }
