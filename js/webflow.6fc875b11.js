@@ -1508,13 +1508,9 @@
         }
         function createBadge() {
 
-          var $logoArt = $("<img>").attr("src", "").attr("alt", "").css({
-            marginRight: "4px",
-            width: "26px"
+
           });
-          var $logoText = $("<img>").attr("src", "").attr("alt", "Made in Webflow");
-          $brand.append($logoArt, $logoText);
-          return $brand[0];
+
         }
         function ensureBrand() {
           var found = $body.children(namespace);
