@@ -368,11 +368,6 @@ pre.w-code-block code {
   transform: none !important;
 }
 
-.w-webflow-badge > img {
-  visibility: visible !important;
-  opacity: 1 !important;
-  vertical-align: middle !important;
-  display: inline-block !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
