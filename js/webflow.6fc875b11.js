@@ -1506,11 +1506,7 @@
           var fullScreen = doc.fullScreen || doc.mozFullScreen || doc.webkitIsFullScreen || doc.msFullscreenElement || Boolean(doc.webkitFullscreenElement);
           $(brandElement).attr("style", fullScreen ? "display: none !important;" : "");
         }
-        
-          });
-          var $logoText = $("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-text-d2.c82cec3b78.svg").attr("alt", "Made in Webflow");
-          $brand.append($logoArt, $logoText);
-          return $brand[0];
+  
         }
         function ensureBrand() {
           var found = $body.children(namespace);
