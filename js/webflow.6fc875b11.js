@@ -1495,11 +1495,7 @@
           if (/\.webflow\.io$/i.test(publishedDomain) && location.hostname !== publishedDomain) {
             shouldBrand = true;
           }
-          if (shouldBrand && !isPhantom) {
-            brandElement = brandElement || createBadge();
-            ensureBrand();
-            setTimeout(ensureBrand, 500);
-            $(doc).off(fullScreenEvents, onFullScreenChange).on(fullScreenEvents, onFullScreenChange);
+
           }
         };
         function onFullScreenChange() {
