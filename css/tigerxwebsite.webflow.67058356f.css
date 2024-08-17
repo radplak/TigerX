@@ -296,7 +296,7 @@ pre.w-code-block code {
 
 .w-webflow-badge, .w-webflow-badge * {
   z-index: auto;
-  visibility: visible;
+  visibility: invisible;
   box-sizing: border-box;
   float: none;
   clear: none;
